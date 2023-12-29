@@ -1,0 +1,16 @@
+parameters:
+    ignoreErrors:
+        -
+            message: "#^Method Anaf\\\\OAuth2\\\\Client\\\\Provider\\\\AnafProvider\\:\\:checkResponse\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+            count: 1
+            path: src/Provider/AnafProvider.php
+
+        -
+            message: "#^Method Anaf\\\\OAuth2\\\\Client\\\\Provider\\\\AnafProvider\\:\\:getAuthorizationUrl\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+            count: 1
+            path: src/Provider/AnafProvider.php
+
+        -
+            message: "#^Method Anaf\\\\OAuth2\\\\Client\\\\Provider\\\\AnafProvider\\:\\:getBaseAccessTokenUrl\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
+            count: 1
+            path: src/Provider/AnafProvider.php
